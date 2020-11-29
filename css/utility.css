@@ -95,6 +95,7 @@ header .logo {
   position: fixed;
   top: 250px;
   right: 5px;
+  z-index: 3;
 }
 
 .fixed-social > div {
