@@ -166,6 +166,7 @@
 }
 
 .about p {
+  text-align: left;
   font-size: 1.3rem;
   line-height: 1.6;
   padding-left: 2rem;
