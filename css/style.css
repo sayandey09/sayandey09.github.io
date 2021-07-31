@@ -124,8 +124,11 @@
   width: 75%;
 }
 
-.skills .container .list .list-item:last-child {
+.skills .container .list .list-item:nth-child(4) {
   width: 60%;
+}
+.skills .container .list .list-item:last-child {
+  width: 70%;
 }
 
 .skills .container .list .list-item > span {
@@ -372,8 +375,20 @@
     padding-left: 10px;
   }
 
+  .skills .container .list .list-item:nth-child(1),
+  .skills .container .list .list-item:nth-child(2),
+  .skills .container .list .list-item:nth-child(3),
+  .skills .container .list .list-item:nth-child(4),
+  .skills .container .list .list-item:last-child {
+    width: 100%;
+  }
   .program_img {
-    bottom: 30px;
+    position: static;
+    align-self: center;
+    display: inline-block;
+    margin-bottom: 3rem;
+    width: 45%;
+    height: 45%;
   }
 
   /* about */
@@ -395,7 +410,7 @@
   }
 
   .about p {
-    text-align: center;
+    text-align: left;
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 0.3rem;
