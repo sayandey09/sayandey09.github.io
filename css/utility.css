@@ -63,6 +63,10 @@ header a.logo {
   font-weight: bolder;
   color: #fff;
 }
+header .logo a {
+  color: #fff;
+}
+
 .nav {
   display: flex;
   align-items: center;
