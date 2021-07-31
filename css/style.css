@@ -67,6 +67,7 @@
   padding: 3rem 0;
   position: relative;
   background: #fff;
+  color: #0d8abc;
 }
 
 .skills h3 {
@@ -75,9 +76,6 @@
   font-size: 3rem;
 }
 
-.skills i {
-  color: #333;
-}
 .skills p {
   margin-top: 1rem;
   font-weight: bold;
@@ -85,56 +83,53 @@
 }
 
 .skills .container {
-  /* padding: 0 1rem; */
   display: flex;
   flex-direction: column;
 }
-.skills .container .fo-ic {
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-  align-items: center;
-  grid-gap: 2rem;
-  width: 100%;
-  margin-bottom: 2rem;
-}
 
-.skills .container .fo-ic > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* margin: 1rem; */
-  padding: 2rem 0;
-  background: #daeaf6;
-  border-radius: 5px;
-}
-
-.skills .container .points {
-  margin-bottom: 3rem;
-  color: var(--primary-color);
-}
-
-.skills .container .points ul {
+.skills .container .list {
+  padding: 1rem 2rem;
   margin-bottom: 2rem;
   line-height: 1.8;
 }
 
-.skills .container .points ul li {
+.program_img {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  right: 50px;
+  bottom: 75px;
+}
+
+.skills .container .list .list-item {
   font-size: 2rem;
   padding-left: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 1rem;
+  border-radius: 7px;
 }
-
-.skills .container .points ul li:nth-child(odd) {
-  background: #f4f4f4;
+.skills .container .list .list-item:nth-child(odd) {
+  background: #dad8d8;
 }
-
-.skills .container .points ul li:nth-child(even) {
+.skills .container .list .list-item:nth-child(even) {
   background: #333;
   color: #f4f4f4;
+}
+
+.skills .container .list .list-item:nth-child(2) {
+  width: 95%;
+}
+
+.skills .container .list .list-item:nth-child(3) {
+  width: 75%;
+}
+
+.skills .container .list .list-item:last-child {
+  width: 60%;
+}
+
+.skills .container .list .list-item > span {
+  font-weight: 600;
 }
 
 .skills::before,
@@ -183,8 +178,8 @@
 }
 
 /* #timeline {
-  padding: 10rem 0;
-} */
+    padding: 10rem 0;
+  } */
 
 #timeline {
   padding-top: 2rem;
@@ -372,18 +367,13 @@
     font-size: 2rem;
   }
 
-  .skills .container .fo-ic {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
-  .skills .container .fo-ic > div {
-    padding: 1rem 0;
-    margin: 0 2rem;
-  }
-  .skills .container .points ul li {
+  .skills .container .list .list-item {
     font-size: 1.2rem;
-    text-align: center;
-    padding-left: 0;
+    padding-left: 10px;
+  }
+
+  .program_img {
+    bottom: 30px;
   }
 
   /* about */
