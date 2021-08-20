@@ -230,6 +230,9 @@ header .logo a {
 }
 
 @media (max-width: 678px) {
+  body {
+    overflow-x: hidden;
+  }
   header .logo {
     font-size: 1.7rem;
   }
@@ -269,6 +272,5 @@ header .logo a {
   }
   .footer .social {
     align-self: center;
-    /* border: none; */
   }
 }
