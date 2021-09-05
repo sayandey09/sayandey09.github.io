@@ -12,8 +12,10 @@
   font-size: 3rem;
   text-align: center;
   margin: 2rem 0;
+  text-shadow: -1px -1px 0px #2196f3, 3px 3px 0px #2196f3, 6px 6px 0px #0d47a1;
 }
 
+/*  */
 .project {
   background: #f6f5f6;
   cursor: pointer;
@@ -21,7 +23,7 @@
   border-radius: 7px;
   overflow: hidden;
   box-shadow: 7px 10px 10px rgba(0, 00, 0, 00.2);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .project:hover {
